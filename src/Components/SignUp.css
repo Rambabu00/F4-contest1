@@ -1,0 +1,37 @@
+.container1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 50vw;
+    height: 50vh;
+
+}
+.container1 >div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    outline-style: none;
+    color: white;
+    font-size: 17px;
+    
+}
+  
+label{
+ font-weight: 400;
+ font-size: 19px;
+}
+button{
+    width: 9vw;
+    height: 5vh;
+    transition:  0.5s ease-in-out;
+}
+button:active{
+    transform: scale(0.85);   
+}
